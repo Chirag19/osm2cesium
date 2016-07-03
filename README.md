@@ -8,7 +8,7 @@ Convert (small) OSM extracts to .gltf for display in CesiumJS
 Limitations:
 
 1. Need to manually input coordinates into Cesium
-2. The gltf model is slightly off
+2. The gltf model is slightly off-registered with underlying basemaps
 3. Need to figure out a streaming process to stream cached models to a Cesium client. Should precache it all.
 4. Some missing structures (compare to an underlying basemap, just need to select more with osmosis)
 5. No clamp to ground (may be possible with OSM2World elevation calculation and SRTM2OSM (or see http://extract.bbbike.org/?format=srtm.osm.pbf#)
