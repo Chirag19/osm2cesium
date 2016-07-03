@@ -4,6 +4,7 @@ sudo apt-get install osmosis nodejs python-virtualenv python-pip apache2 # You m
 wget http://cesiumjs.org/releases/Cesium-1.23.zip
 mkdir cesium
 unzip Cesium-1.23.zip -d cesium
+cp demo.html cesium/Apps/
 sudo cp -R cesium /var/www/html/
 git clone https://github.com/tordanik/OSM2World.git
 git clone https://github.com/AnalyticalGraphicsInc/OBJ2GLTF.git
