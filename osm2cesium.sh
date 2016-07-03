@@ -12,7 +12,7 @@ sed -i '/fromDegrees/c\Cesium.Cartesian3.fromDegrees($LONGITUDE,$LATITUDE,0));' 
 sudo cp -R output /var/www/html/cesium/Apps/SampleData/
 sudo chown -R www-data:www-data  /var/www/html/cesium/Apps/SampleData/output
 
-firefox localhost/cesium/Apps/demo.html
+echo "Open your browser and go to: localhost/cesium/Apps/demo.html"
 
 
 
