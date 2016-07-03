@@ -31,3 +31,4 @@ Limitations:
 5. No clamp to ground (may be possible with OSM2World elevation calculation and SRTM2OSM or see http://extract.bbbike.org/?format=srtm.osm.pbf# or download srtm and give a directory in prop.properties)
 6. Textures
 7. Consider other features like trees, roads, etc (but this complicates elevation calc, takes longer, makes gltf models much larger)
+8. Lighting isn't working very well/at all
