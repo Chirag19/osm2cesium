@@ -9,6 +9,7 @@ Convert (small) OSM extracts to .gltf for display in CesiumJS
 1. Assuming Ubuntu 16.04...
 2. bash get_dependencies.sh
 3. bash osm2cesium.sh
+4. Go to http://localhost/cesium/Apps/demo.html and search for "NewYork"
 
 Make sure the resulting model is less than 5 MB or so. Not sure what the .gltf limit is in CesiumJS. Otherwise it will not display
 
