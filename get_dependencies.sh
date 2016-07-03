@@ -10,6 +10,6 @@ wget http://osm2world.org/download/files/latest/OSM2World-latest-bin.zip
 mkdir osm2world
 unzip OSM2World-latest-bin.zip -d osm2world
 git clone https://github.com/AnalyticalGraphicsInc/OBJ2GLTF.git
-virtualenv ~/venv
-source ~/venv/bin/activate
-pip install mercantile
+cd OBJ2GLTF
+npm install
+cd ..
