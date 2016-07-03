@@ -1,6 +1,6 @@
 wget http://download.geofabrik.de/europe/azores-latest.osm.pbf
 osmosis --read-pbf file=azores-latest.osm.pbf --tf accept-ways "building=*" --write-pbf file=buildings.osm.pbf
-OSM2World/./osm2world.sh -i buildings.osm.pbf -o test.obj --config prop.properties
+osm2world/./osm2world.sh -i buildings.osm.pbf -o test.obj --config prop.properties
 mkdir output
 node OBJ2GLTF/bin/obj2gltf.js test.obj output/model.gltf
 
