@@ -1,6 +1,6 @@
 # osm2cesium
 
-Sample NewYork extract is © OpenStreetMap contributors (https://www.openstreetmap.org/copyright http://opendatacommons.org/licenses/odbl/)
+Sample New York extract included is © OpenStreetMap contributors (https://www.openstreetmap.org/copyright http://opendatacommons.org/licenses/odbl/)
 
 ![Sample image of New York](https://raw.githubusercontent.com/stirringhalo/osm2cesium/master/sample.png)
 
