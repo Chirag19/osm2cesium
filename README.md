@@ -12,6 +12,13 @@ Make sure the resulting model is less than 5 MB or so. Not sure what the .gltf l
 
 If you find it too dark, manually open the resulting fragmentShader0.glsl and modify the diffuseLight and ambientLight vectors to both be (0.9,0.9,0.9)
 
+Major components:
+
+* OSM2World - http://osm2world.org
+* OBJ2GLTF - https://github.com/AnalyticalGraphicsInc/OBJ2GLTF
+* Cesium - https://cesiumjs.org/
+* OpenStreetMap - http://openstreetmap.org
+
 
 
 Limitations:
