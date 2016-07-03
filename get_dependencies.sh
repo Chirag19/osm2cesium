@@ -7,7 +7,8 @@ unzip Cesium-1.23.zip -d cesium
 cp demo.html cesium/Apps/
 sudo cp -R cesium /var/www/html/
 wget http://osm2world.org/download/files/latest/OSM2World-latest-bin.zip
-unzip OSM2World-latest-bin.zip
+mkdir osm2world
+unzip OSM2World-latest-bin.zip -d osm2world
 git clone https://github.com/AnalyticalGraphicsInc/OBJ2GLTF.git
 virtualenv ~/venv
 source ~/venv/bin/activate
