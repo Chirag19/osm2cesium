@@ -1,4 +1,7 @@
 # osm2cesium
+
+Sample NewYork extract is © OpenStreetMap contributors (https://www.openstreetmap.org/copyright http://opendatacommons.org/licenses/odbl/)
+
 Convert (small) OSM extracts to .gltf for display in CesiumJS
 
 1. Assuming Ubuntu 16.04...
