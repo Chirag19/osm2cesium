@@ -2,7 +2,7 @@
 
 Sample New York extract included is © OpenStreetMap contributors (https://www.openstreetmap.org/copyright http://opendatacommons.org/licenses/odbl/)
 
-![Sample image of New York](https://raw.githubusercontent.com/stirringhalo/osm2cesium/master/sample.png)
+![Sample image of New York](https://raw.githubusercontent.com/stirringhalo/osm2cesium/master/sample2.png)
 
 Convert (small) OSM extracts to .gltf for display in CesiumJS
 
@@ -21,8 +21,6 @@ Major components:
 * OBJ2GLTF - https://github.com/AnalyticalGraphicsInc/OBJ2GLTF
 * Cesium - https://cesiumjs.org/
 * OpenStreetMap - http://openstreetmap.org
-
-
 
 Limitations:
 
