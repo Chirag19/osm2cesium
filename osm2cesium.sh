@@ -7,7 +7,7 @@ node OBJ2GLTF/bin/obj2gltf.js test.obj output/model.gltf
 LATITUDE=$(grep "Coordinate" test.obj | cut -d " " -f 6 | cut -d "," -f 1)
 LONGITUDE=$(grep "Coordinate" test.obj | cut -d " " -f 8 | cut -d "," -f 1)
 
-sed -i '/fromDegrees/c\Cesium.Cartesian3.fromDegrees($LONGITUDE,$LATITUDE,0));' /var/www/html/cesium/Apps/demo.html
+sudo sed -i '/fromDegrees/c\Cesium.Cartesian3.fromDegrees($LONGITUDE,$LATITUDE,0));' /var/www/html/cesium/Apps/demo.html
 
 sudo cp -R output /var/www/html/cesium/Apps/SampleData/
 sudo chown -R www-data:www-data  /var/www/html/cesium/Apps/SampleData/output
