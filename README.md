@@ -22,6 +22,13 @@ Major components:
 * Cesium - https://cesiumjs.org/
 * OpenStreetMap - http://openstreetmap.org
 
+Major steps:
+1. Extract buildings from original OSM pbf
+2. Run osm2world to generate obj
+3. Run obj2gltf to generate gltf
+4. Extract coordinates from obj
+5. Build Cesium demo
+
 Limitations:
 
 1. Need to manually input coordinates into Cesium (for now extracted from obj, statically setup in demo)
