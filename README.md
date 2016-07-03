@@ -5,6 +5,11 @@ Convert (small) OSM extracts to .gltf for display in CesiumJS
 2. bash get_dependencies.sh
 3. bash osm2cesium.sh
 
+Make sure the resulting model is less than 5 MB or so. Not sure what the .gltf limit is in CesiumJS. Otherwise it will not display
+If you find it too dark, manually open the resulting fragmentShader0.glsl and modify the diffuseLight and ambientLight vectors to both be (0.9,0.9,0.9)
+
+
+
 Limitations:
 
 1. Need to manually input coordinates into Cesium
