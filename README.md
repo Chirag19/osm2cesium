@@ -26,10 +26,10 @@ Major components:
 
 Limitations:
 
-1. Need to manually input coordinates into Cesium
+1. Need to manually input coordinates into Cesium (for now extracted from obj, statically setup in demo)
 2. The gltf model is slightly off-registered with underlying basemaps
-3. Need to figure out a streaming process to stream cached models to a Cesium client. Should precache it all.
-4. Some missing structures and parts of buildings(compare to an underlying basemap or osm2world pngs, just need to select more with osmosis)
+3. Need to figure out a streaming process to stream cached models to a Cesium client. Should precache it all. Need a webserver to receive tile requests like in TMS/XYZ format, grab cached gltf with coordinates and send back to Cesium. Selecting tiles may be based on distance to camera/FOV/something
+4. Some missing structures and parts of buildings(compare to an underlying basemap or osm2world pngs, just need to select more with osmosis, not sure why missing parts of buildings)
 5. No clamp to ground (may be possible with OSM2World elevation calculation and SRTM2OSM or see http://extract.bbbike.org/?format=srtm.osm.pbf# or download srtm and give a directory in prop.properties)
 6. Textures
 7. Consider other features like trees, roads, etc (but this complicates elevation calc, takes longer, makes gltf models much larger)
