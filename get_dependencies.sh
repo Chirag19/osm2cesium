@@ -1,5 +1,6 @@
 # Works on Ubuntu 16.04 at least
 
+read -p "Add nodesource repo and install v5? Press CTRL+C to cancel: " 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
 sudo apt-add-repository "deb https://deb.nodesource.com/node_5.x $(lsb_release -sc) main"
 sudo apt-get update
