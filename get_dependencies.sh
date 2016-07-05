@@ -1,6 +1,10 @@
 # Works on Ubuntu 16.04 at least
 
-sudo apt-get install osmosis nodejs python-virtualenv python-pip apache2 git node # You may need a later version of nodejs if you run into a "Method not found error"
+read -p "Add ppa:chris-lea/node.js repo? Press CTRL+C to cancel: "
+sudo add-apt-repository ppa:chris-lea/node.js 
+sudo apt-get update
+
+sudo apt-get install osmosis nodejs python-virtualenv python-pip apache2 git nodejs # You may need a later version of nodejs if you run into a "Method not found error"
 wget http://cesiumjs.org/releases/Cesium-1.23.zip
 mkdir cesium
 unzip Cesium-1.23.zip -d cesium
