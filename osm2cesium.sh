@@ -1,5 +1,5 @@
 
-osmosis --read-pbf file=newyork.pbf --tf accept-ways "building=*" --write-pbf file=buildings.osm.pbf
+osmosis --read-pbf file=newyork.pbf --tf accept-ways "building=*" "building:part=*" --write-pbf file=buildings.osm.pbf
 cd osm2world
 ./osm2world.sh -i ../buildings.osm.pbf -o ../test.obj --config ../prop.properties
 cd ..
