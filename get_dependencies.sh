@@ -1,8 +1,9 @@
 # Works on Ubuntu 16.04 at least
 
-read -p "Add ppa:chris-lea/node.js repo? Press CTRL+C to cancel: "
-sudo add-apt-repository ppa:chris-lea/node.js 
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280
+sudo apt-add-repository "deb https://deb.nodesource.com/node_5.x $(lsb_release -sc) main"
 sudo apt-get update
+sudo apt-get install nodejs
 
 sudo apt-get install osmosis nodejs python-virtualenv python-pip apache2 git nodejs # You may need a later version of nodejs if you run into a "Method not found error"
 wget http://cesiumjs.org/releases/Cesium-1.23.zip
