@@ -1,4 +1,5 @@
 # osm2cesium
+## Note, this is now deprecated in favor of https://github.com/stirringhalo/osm2citygml
 
 Extract buildings from OSM and display in Cesium with this tech demo!
 
